@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Celestial",
+    "description": "Go to haven where you meet angels and other celestial beings. You can communicate with them and ask them for guidance.",
+    "rating": 5,
+    "price": 999,
+    "img": "https://images.unsplash.com/photo-1504221507732-5246c045949b"
+  },
+  {
+    "id": 1,
+    "name": "Drift",
+    "description": "You find yourself on a drift track. You can use the drift track to travel to other planets and travel to other locations.",
+    "rating": 3,
+    "price": 234,
+    "img": "https://images.unsplash.com/photo-1629815266743-e254cba7f0d3"
+  },
+  {
+    "id": 2,
+    "name": "Wisdom",
+    "description": "Use the wisdom to learn about the world and its people.",
+    "rating": 4,
+    "price": 567,
+    "img": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
+  },
+  {
+    "id": 3,
+    "name": "Dive",
+    "description": "Dive and see the underwater world. Meet unusual creatures and visit the underwater cities.",
+    "rating": 5,
+    "price": 777,
+    "img": "https://images.unsplash.com/photo-1576707948881-b485713fbad7"
+  },
+  {
+    "id": 4,
+    "name": "Gravity",
+    "description": "Spend entire day without feeling the effects of gravity.",
+    "rating": 2,
+    "price": 333,
+    "img": "https://images.unsplash.com/photo-1521155353031-ac5f9bda8b85"
+  }
+]
