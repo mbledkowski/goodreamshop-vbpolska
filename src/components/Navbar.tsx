@@ -9,8 +9,14 @@ const Inner = styled.nav`
     flex-flow: row nowrap;
     list-style-type: none;
     margin: auto;
+    padding: 0;
     > li {
       margin: 0 1rem;
+    }
+  }
+  @media(max-width: 512px) {
+    > ul {
+      flex-flow: row wrap;
     }
   }
 `;
@@ -39,7 +45,7 @@ const SecondLi = styled(StyledLi)`
   }
 `;
 
-export default function Navbar(){
+export default function Navbar() {
   return <Inner>
     <ul>
       <FirstLi><Link to="/">Home</Link></FirstLi>

@@ -12,6 +12,9 @@ const shopName = "GooDreamShop";
 
 const Inner = styled.div`
   min-height: calc(100vh - 9rem - 21.44px);
+  @media(max-width: 512px) {
+    min-height: 100vh;
+  }
 `
 
 function App() {

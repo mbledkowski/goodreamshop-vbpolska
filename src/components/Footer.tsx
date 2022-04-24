@@ -8,12 +8,19 @@ const StyledFooter = styled.footer`
   background: var(--background);
   color: var(--text);
   height: 5rem;
-  max-height: 5rem;
   p {
     margin: 1.5rem;
   }
   div {
     display: flex;
+  }
+  @media(max-width: 768px) {
+    flex-flow: column nowrap;
+    height: fit-content;
+    > div {
+      justify-content: center;
+      flex-flow: row wrap;
+    }
   }
 `
 

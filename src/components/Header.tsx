@@ -9,11 +9,16 @@ const Inner = styled.header`
   justify-content: space-between;
   background-color: var(--background);
   height: 4rem;
+  @media(max-width: 512px) {
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 6rem;
+  }
 `;
 const Title = styled.h1`
   margin: 1rem;
   font-size: 1.5rem;
-  color: var(--text)
+  color: var(--text);
 `;
 
 export default function Header(props: {shopName:string}) {
