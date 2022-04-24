@@ -6,7 +6,7 @@ export default function Home({shopName}: {shopName: string}) {
   return <div>
     <h1>{shopName}</h1>
     <p>
-      This is a simple shop application that uses React, Redux, TypeScript,
+      This is a simple shop application that uses React, TypeScript,
       Styled Components, and React Router.
     </p>
     <Link to="/products">Go to products</Link>

@@ -2,12 +2,13 @@
   --color: #ffcc00;
   --second-color: #cd0067;
   --third-color: #00ccff;
+  --text: white;
   --background: black;
   --lighter-background: #151515;
 }
 
-html, body, #root {
-  height: 100%;
+html, body, #root, .App {
+  height: 100vh;
 }
 
 body {

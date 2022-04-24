@@ -86,9 +86,9 @@ export default function Products() {
       <select name="sort" value={sortType} onChange={x => setSortType(x.target.value)}>
         <option value="default">Default</option>
         <option value="name">Name</option>
-        <option value="priceAsc">Price</option>
+        <option value="priceAsc">Price Ascending</option>
         <option value="priceDesc">Price Descending</option>
-        <option value="ratingAsc">Rating</option>
+        <option value="ratingAsc">Rating Ascending</option>
         <option value="ratingDesc">Rating Descending</option>
       </select>
     </div>

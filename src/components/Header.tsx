@@ -6,12 +6,14 @@ import { Link } from 'react-router-dom';
 const Inner = styled.header`
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
   background-color: var(--background);
+  height: 4rem;
 `;
 const Title = styled.h1`
   margin: 1rem;
   font-size: 1.5rem;
-  color: white;
+  color: var(--text)
 `;
 
 export default function Header(props: {shopName:string}) {
